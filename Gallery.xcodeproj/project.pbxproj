@@ -14,6 +14,10 @@
 		37198B201A5C890D00961E84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37198B1F1A5C890D00961E84 /* Images.xcassets */; };
 		37198B231A5C890D00961E84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37198B211A5C890D00961E84 /* LaunchScreen.xib */; };
 		37198B2F1A5C890D00961E84 /* GalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37198B2E1A5C890D00961E84 /* GalleryTests.m */; };
+		37198B3C1A5D774D00961E84 /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = 37198B381A5D774D00961E84 /* Brad Cox.png */; };
+		37198B3D1A5D774D00961E84 /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 37198B391A5D774D00961E84 /* Dennis Ritchie.png */; };
+		37198B3E1A5D774D00961E84 /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 37198B3A1A5D774D00961E84 /* Matthijs.png */; };
+		37198B3F1A5D774D00961E84 /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 37198B3B1A5D774D00961E84 /* Ray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		37198B281A5C890D00961E84 /* GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37198B2D1A5C890D00961E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37198B2E1A5C890D00961E84 /* GalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryTests.m; sourceTree = "<group>"; };
+		37198B381A5D774D00961E84 /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brad Cox.png"; path = "../../../../Desktop/Gallery_Images/Brad Cox.png"; sourceTree = "<group>"; };
+		37198B391A5D774D00961E84 /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dennis Ritchie.png"; path = "../../../../Desktop/Gallery_Images/Dennis Ritchie.png"; sourceTree = "<group>"; };
+		37198B3A1A5D774D00961E84 /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Matthijs.png; path = ../../../../Desktop/Gallery_Images/Matthijs.png; sourceTree = "<group>"; };
+		37198B3B1A5D774D00961E84 /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ray.png; path = ../../../../Desktop/Gallery_Images/Ray.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		37198B111A5C890D00961E84 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				37198B381A5D774D00961E84 /* Brad Cox.png */,
+				37198B391A5D774D00961E84 /* Dennis Ritchie.png */,
+				37198B3A1A5D774D00961E84 /* Matthijs.png */,
+				37198B3B1A5D774D00961E84 /* Ray.png */,
 				37198B161A5C890D00961E84 /* AppDelegate.h */,
 				37198B171A5C890D00961E84 /* AppDelegate.m */,
 				37198B191A5C890D00961E84 /* ViewController.h */,
@@ -200,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				37198B1E1A5C890D00961E84 /* Main.storyboard in Resources */,
+				37198B3E1A5D774D00961E84 /* Matthijs.png in Resources */,
 				37198B231A5C890D00961E84 /* LaunchScreen.xib in Resources */,
+				37198B3C1A5D774D00961E84 /* Brad Cox.png in Resources */,
 				37198B201A5C890D00961E84 /* Images.xcassets in Resources */,
+				37198B3F1A5D774D00961E84 /* Ray.png in Resources */,
+				37198B3D1A5D774D00961E84 /* Dennis Ritchie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				37198B341A5C890D00961E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37198B351A5C890D00961E84 /* Build configuration list for PBXNativeTarget "GalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				37198B371A5C890D00961E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
